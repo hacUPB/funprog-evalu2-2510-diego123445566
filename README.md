@@ -260,9 +260,89 @@ También comprendí que diferentes lenguajes de programación manejan los tipos 
 
 En conclusión, la representación de datos en las computadoras es clave para la optimización del almacenamiento y el procesamiento eficiente de la información. Esta actividad me ayudó a visualizar cómo pequeños datos pueden acumularse y requerir una cantidad significativa de memoria con el tiempo.
  
+peguntas solo paralos curiosos
+## Resuelve y deja evidencia en la bitácora
+
+Es tu turno de practicar. Realiza las siguientes sumas usando binarios. Debes convertir a binario los números decimales y luego realizar la suma binaria. Vas a utilizar datos de 8 bits. Por lo tanto, resalta aquellos casos donde haya
+
+45_10 + 96_10
+
+45 _10=00101101_2
+​96_10=01100000_2
+
+  00101101
++ 01100000
+=10001101  (141_{10})
+
+95 _10+84_10
+
+95_10​ =01011111_2
+​84_10=01010100_2
+​
+  01011111
++ 01010100
+------------
+  10110011  (179_{10})
+
+124_10+63_10
+
+124_10=01111100_2
+​63_10=00111111_2
+​
+  01111100
++ 00111111
+------------
+  10111011  (187_{10})
+
+## Ejercicio 5 - Resuelve y deja evidencia en la bitácora
+
+Convierte a binarios los siguientes decimales. Utiliza complemento a 2 y los datos debes representarlos con 12 bits.
+
+1. 253_10
+2. 365_10
+3. 145_10
+
+253_10=000011111101_2
+plicamos complemento a 2:
+Invertimos los bits:
+
+111100000010_2
+​Sumamos 1:
+111100000011_2
+
+Resultado: 
+−
+253_10=111100000011_2(12 bits)
+
+365_10=000101101101_2
+
+Aplicamos complemento a 2:
+Invertimos los bits:
+111010010010_2
+
+Sumamos 1:
+111010010011_2
+
+ Resultado: 
+−
+36510=111010010011_2(bits)
+
+ 145_10=000010010001_2
+ Aplicamos complemento a 2:
+Invertimos los bits:
+111101101110_2
+Sumamos 1:
+111101101111_2
+
+ Resultado: 
+−
+145_10=111101101111_2(bits)
 
 
 
+
+
+​
 
 
 
