@@ -4,6 +4,7 @@
 Nombre del estudiante:  
 Id.:
 ---
+version 2 
 
 *En la Figura 2 se muestran los diferentes estados que se pueden representar usando una palabra binaria de 3 bits. Responde la pregunta de la imagen: ¿Cuántos estados diferentes se pueden representar usando N bits?
 
@@ -25,8 +26,8 @@ En una computadora, los datos se representan mediante el sistema binario, que ut
 En conclusión, el número de estados diferentes que pueden ser representados por \( N \) variables binarias sigue la fórmula \( 2^N \). Esto significa que, a medida que aumenta el número de bits, la cantidad de combinaciones posibles crece exponencialmente. Por ejemplo, con 3 bits se pueden representar 8 estados diferentes, mientras que con 4 bits se pueden representar 16. Esta propiedad es fundamental en la computación, ya que permite almacenar y procesar grandes cantidades de información de manera eficiente. Gracias a esta representación binaria, las computadoras pueden manejar números, texto, imágenes y otros tipos de datos utilizando combinaciones de ceros y unos.
  _________________________________________________________________                                                               
 |Unidad   |	Abreviatura| Equivalencia en Bytes                    |
-|Bit	  |     (b)    |1 bit (mínima unidad de información)      |
-|Byte	  |     (B)	   |8 bits                                    |
+|Bit	  |     (b)    |1 bit (mínima unidad de información)        |
+|Byte	  |     (B)	   |8 bits                                      |
 |KiloByte |	   (KB)	   |1,024 Bytes(2^10)                         |
 |MegaByte |	   (MB)	   |1,024 KB Bytes (2^20 Bytes)               | 
 |GigaByte |	   (GB)	   |1,024 MB (2^30 Bytes)                     |
@@ -133,7 +134,7 @@ Resultado:
 5 ÷ 2 = 2, residuo 1
 2 ÷ 2 = 1, residuo 0
 1 ÷ 2 = 0, residuo 1
-
+ 
 187_10=10111011_2
 
 ## **Actividad de investigación (para la bitácora)**
@@ -337,17 +338,4 @@ Sumamos 1:
  Resultado: 
 −
 145_10=111101101111_2(bits)
-
-
-
-
-
-​
-
-
-
-
-
-
-
 
