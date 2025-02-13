@@ -339,3 +339,33 @@ Sumamos 1:
 −
 145_10=111101101111_2(bits)
 
+## Ejercicio 1.
+
+Investiga cuáles son los símbolos que se utilizan para representar cada operación de un algorimo con un diagrama de flujo. Asegúrate de que la fuente es confiable, discute lo que encontraste con tus compañeros y con el profe. Cuando estés seguro/a de tener los símbolos correctos, consigna la información en la bitácora.
+
+Los diagramas de flujo utilizan símbolos estandarizados para representar las diferentes operaciones en un algoritmo. Estos símbolos permiten visualizar la lógica y el flujo del proceso de manera clara. Aquí están los principales símbolos utilizados:
+
+1. **Óvalo (Inicio/Fin)**: Representa el inicio o el fin del diagrama de flujo. Se coloca al principio y al final del algoritmo.  
+   - **Ejemplo:** "Inicio" o "Fin"
+
+2. **Paralelogramo (Entrada/Salida)**: Representa una operación de entrada (leer datos) o salida (mostrar resultados).  
+   - **Ejemplo:** "Leer X" o "Imprimir resultado"
+
+3. **Rectángulo (Proceso o Acción)**: Representa una operación o proceso, como un cálculo o una asignación de valores.  
+   - **Ejemplo:** "Suma = A + B"
+
+4. **Rombo (Decisión o Condición)**: Representa una decisión o bifurcación en el flujo, basada en una condición lógica (Sí/No, Verdadero/Falso).  
+   - **Ejemplo:** "¿X > 10?"
+
+5. **Flechas (Flujo del proceso)**: Indican la dirección en la que fluye el algoritmo entre los diferentes símbolos.
+
+
+
+
+
+
+
+
+
+
+
