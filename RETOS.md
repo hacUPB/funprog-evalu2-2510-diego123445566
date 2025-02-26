@@ -50,4 +50,94 @@ pseurocodigo
 
 	Imprimir DISTANCIA
 FinAlgoritmo
+
+2. Algoritmo METROS_A_PULGADAS
+	Escribir "ingrese la cantidad de tela en metros"
+	Leer metros
+	pulgadas <- metros / 0.0254
+	ESCRIBIR "Debe pedir", pulgadas, "pulgadas de tela."
 	
+FinAlgoritmo
+
+3. Algoritmo TRIANGULO_RECTANGULO
+	Escribir "ingrese el valor del cateto A"
+	Leer A
+	ESCRIBIR "Ingrese el valor del cateto B"
+    LEER B
+	C <- Rc(A^2 + B^2)
+	ESCRIBIR "La hipotenusa es" C
+FinAlgoritmo
+
+4.  Algoritmo EDAD_ACTUAL_DE_UNA_PERSONA
+		ESCRIBIR "Ingrese el día de nacimiento"
+		LEER diaNAC
+		ESCRIBIR "Ingrese el mes de nacimiento"
+		LEER mesNac
+		ESCRIBIR "Ingrese el año de nacimiento"
+		LEER añoNac
+		ESCRIBIR "Ingrese el día actual"
+		LEER diaAct
+		ESCRIBIR "Ingrese el mes actual"
+		LEER mesAct
+		ESCRIBIR "Ingrese el año actual"
+		LEER añoAct
+		edad <- añoAct - añoNac
+		
+		SI (mesAct < mesNac) O (mesAct = mesNac Y diaAct < diaNac) ENTONCES
+			edad <- edad - 1
+			ESCRIBIR "Aún no ha cumplido años este año."
+		SiNo
+			ESCRIBIR "Ya cumplió años este año."
+		FIN SI
+		SI (mesAct = mesNac Y diaAct = diaNac) ENTONCES
+			ESCRIBIR "Feliz Cumpleaños!"
+		FinSi
+		Imprimir "edad actual" edad
+	
+FinAlgoritmo
+
+5. Algoritmo horad de trabajo
+    ESCRIBIR "Ingrese las horas trabajadas en la semana:"
+    LEER horasTrabajadas
+    ESCRIBIR "Ingrese el pago por hora:"
+    LEER pagoHora
+    SI horasTrabajadas > 50 ENTONCES
+        ESCRIBIR "No está permitido trabajar más de 50 horas."
+    SINO
+        sueldo <- 0
+	FinSi
+        SI horasTrabajadas <= 40 ENTONCES
+            sueldo <- horasTrabajadas * pagoHora
+        SINO SI horasTrabajadas <= 45 ENTONCES
+				sueldo <- (40 * pagoHora) + ((horasTrabajadas - 40) * pagoHora * 2)
+			SINO SI horasTrabajadas <= 50 ENTONCES
+					sueldo <- (40 * pagoHora) + (5 * pagoHora * 2) + ((horasTrabajadas - 45) * pagoHora * 3)
+				FIN SI
+				
+				ESCRIBIR "El sueldo semanal es:", sueldo
+			FIN SI
+		FinSi
+FinAlgoritmo
+
+6. Algoritmo sin_titulo
+    ESCRIBIR "Ingrese la cantidad de números a evaluar (N):"
+    LEER N
+    contadorCeros <- 0
+    contadorPositivos <- 0
+    contadorNegativos <- 0
+    PARA i <- 1 HASTA N HACER
+        ESCRIBIR "Ingrese un número:"
+        LEER num
+        SI num = 0 ENTONCES
+            contadorCeros <- contadorCeros + 1
+        SINO SI num > 0 ENTONCES
+				contadorCerosPositivos <- contadorPositivos + 1
+			SINO
+				contadorCerosNegativos <- contadorNegativos + 1
+			FIN SI
+		FinSi
+		FinPara
+		Imprimir  "Cantidad de números iguales a cero:", contadorCeros
+		Imprimir "Cantidad de números positivos:", contadorCerosPositivos
+		Imprimir  "Cantidad de números negativos:", contadorCerosNegativos
+FinAlgoritmo
