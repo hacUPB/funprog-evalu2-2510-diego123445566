@@ -119,8 +119,8 @@ FinAlgoritmo
 		FinSi
 FinAlgoritmo
 
-6. Algoritmo sin_titulo
-    ESCRIBIR "Ingrese la cantidad de números a evaluar (N):"
+6.   Algoritmo triangulo_rectangulo
+	ESCRIBIR "Ingrese la cantidad de números a evaluar (N):"
     LEER N
     contadorCeros <- 0
     contadorPositivos <- 0
@@ -131,13 +131,75 @@ FinAlgoritmo
         SI num = 0 ENTONCES
             contadorCeros <- contadorCeros + 1
         SINO SI num > 0 ENTONCES
-				contadorCerosPositivos <- contadorPositivos + 1
+				contadorCerosPositivos <- contadorCerosPositivos + 1
 			SINO
-				contadorCerosNegativos <- contadorNegativos + 1
+				contadorCerosNegativos <- contadorCerosNegativos + 1
 			FIN SI
 		FinSi
-		FinPara
-		Imprimir  "Cantidad de números iguales a cero:", contadorCeros
-		Imprimir "Cantidad de números positivos:", contadorCerosPositivos
-		Imprimir  "Cantidad de números negativos:", contadorCerosNegativos
+	FinPara
+	Imprimir  "Cantidad de números iguales a cero:", contadorCeros
+	Imprimir "Cantidad de números positivos:", contadorCerosPositivos
+	Imprimir  "Cantidad de números negativos:", contadorCerosNegativos
+FinAlgoritmo
+
+7. Algoritmo Ahorro_anual
+	Definir ahorro_diario como real
+    Definir ahorro_total como real
+    Definir dia como entero
+    ahorro_diario <- 0.03  // Primer día se ahorran 3 centavos
+    ahorro_total <- 0
+    Para dia <- 1 hasta 365 Hacer
+        Mostrar "Día ", dia, ": ahorró ", ahorro_diario, " pesos"
+        ahorro_total <- ahorro_total + ahorro_diario
+        ahorro_diario <- ahorro_diario * 3 // Se triplica el ahorro cada día
+    Fin Para
+    Mostrar "Total ahorrado en el año: ", ahorro_total, " pesos"
+FinAlgoritmo
+
+8. Algoritmo promocion
+    Escribir "Ingrese el precio de los articulos comprados" 
+    Leer precio
+		Si precio >= 200 Entonces
+            descuento <- precio * 0.15
+        Sino Si precio >= 100 Entonces
+				descuento <- precio * 0.12
+			Sino
+				descuento <- precio * 0.10
+			FinSi
+		FinSi
+			precio_final <- precio - descuento
+			total_pago <- total_pago + precio_final
+			Escribir "Descuento aplicado: ", descuento
+			Escribir "Precio final del artículo ", i, ": ", precio_final
+		Escribir "Total a pagar por todos los artículos: ", total_pago
+FinAlgoritmo
+
+9. Algoritmo funcion_exponencial
+    Escribir "Ingrese el valor de x:"
+    Leer x
+    Escribir "Ingrese el número de términos (precisión):"
+    Leer n
+    suma <- 1
+    termino <- 1
+    Para i desde 1 hasta n-1 hacer
+        termino <- (termino * x) / i
+        suma <- suma + termino
+    Fin Para
+    Escribir "El valor aproximado de e^x es: ", suma
+FinAlgoritmo
+
+10. Algoritmo angulo
+	Escribir "Ingrese el valor de x en radianes"
+	Leer x 
+	Escribir "Ingrese el numero de te?rminos que desea imprimir"
+	Leer n
+	Sen(x) = x  
+    termino = x  
+    i = 1  
+    si i < n hacer
+        termino = termino * (-1) * x * x / ((2 * i) * (2 * i + 1))  
+        Sen(x) = Sen(x) + termino  
+        i = i + 1  
+    FinSi
+	Escribir "El valor aproximado de Sen(x) es: ", Sen(x)
 FinAlgoritmo
