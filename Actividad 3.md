@@ -1,4 +1,4 @@
-1. MUESTRE EN PANTALÑLA LOS NUMEROS DEL 10 AL -10
+1. MUESTRE EN PANTALLA LOS NUMEROS DEL 10 AL -10
 
 Algoritmo del 10 al -10
 Algoritmo Holi
@@ -28,5 +28,7 @@ Algoritmo Serie_de_Fibonacci
 		b <- c
 	FinPara
 FinAlgoritmo
+
+3. 
 
 
