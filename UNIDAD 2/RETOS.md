@@ -51,6 +51,7 @@ pseurocodigo
 	Imprimir DISTANCIA
 FinAlgoritmo
 
+``
 2. Algoritmo METROS_A_PULGADAS
 	Escribir "ingrese la cantidad de tela en metros"
 	Leer metros
@@ -59,6 +60,7 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
+``
 3. Algoritmo TRIANGULO_RECTANGULO
 	Escribir "ingrese el valor del cateto A"
 	Leer A
@@ -68,6 +70,7 @@ FinAlgoritmo
 	ESCRIBIR "La hipotenusa es" C
 FinAlgoritmo
 
+``
 4.  Algoritmo EDAD_ACTUAL_DE_UNA_PERSONA
 		ESCRIBIR "Ingrese el día de nacimiento"
 		LEER diaNAC
@@ -96,6 +99,7 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
+``
 5. Algoritmo horad de trabajo
     ESCRIBIR "Ingrese las horas trabajadas en la semana:"
     LEER horasTrabajadas
@@ -119,6 +123,7 @@ FinAlgoritmo
 		FinSi
 FinAlgoritmo
 
+``
 6.   Algoritmo triangulo_rectangulo
 	ESCRIBIR "Ingrese la cantidad de números a evaluar (N):"
     LEER N
@@ -142,6 +147,7 @@ FinAlgoritmo
 	Imprimir  "Cantidad de números negativos:", contadorCerosNegativos
 FinAlgoritmo
 
+``
 7. Algoritmo Ahorro_anual
 	Definir ahorro_diario como real
     Definir ahorro_total como real
@@ -156,6 +162,7 @@ FinAlgoritmo
     Mostrar "Total ahorrado en el año: ", ahorro_total, " pesos"
 FinAlgoritmo
 
+``
 8. Algoritmo promocion
     Escribir "Ingrese el precio de los articulos comprados" 
     Leer precio
@@ -174,6 +181,7 @@ FinAlgoritmo
 		Escribir "Total a pagar por todos los artículos: ", total_pago
 FinAlgoritmo
 
+``
 9. Algoritmo funcion_exponencial
     Escribir "Ingrese el valor de x:"
     Leer x
@@ -188,6 +196,7 @@ FinAlgoritmo
     Escribir "El valor aproximado de e^x es: ", suma
 FinAlgoritmo
 
+``
 10. Algoritmo angulo
 	Escribir "Ingrese el valor de x en radianes"
 	Leer x 
