@@ -60,7 +60,7 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
-
+´´
 3. Algoritmo TRIANGULO_RECTANGULO
 	Escribir "ingrese el valor del cateto A"
 	Leer A
@@ -70,7 +70,7 @@ FinAlgoritmo
 	ESCRIBIR "La hipotenusa es" C
 FinAlgoritmo
 
-``
+
 4.  Algoritmo EDAD_ACTUAL_DE_UNA_PERSONA
 		ESCRIBIR "Ingrese el día de nacimiento"
 		LEER diaNAC
