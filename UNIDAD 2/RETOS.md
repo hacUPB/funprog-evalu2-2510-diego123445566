@@ -122,7 +122,6 @@ FinAlgoritmo
 			FIN SI
 		FinSi
 FinAlgoritmo
-
 ```
 6.   Algoritmo triangulo_rectangulo
 	ESCRIBIR "Ingrese la cantidad de números a evaluar (N):"
