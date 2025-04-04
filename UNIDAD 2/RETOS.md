@@ -51,7 +51,7 @@ pseurocodigo
 	Imprimir DISTANCIA
 FinAlgoritmo
 
-
+ ` `
 2. Algoritmo METROS_A_PULGADAS
 	Escribir "ingrese la cantidad de tela en metros"
 	Leer metros
@@ -60,7 +60,7 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
-´´
+ ` `
 3. Algoritmo TRIANGULO_RECTANGULO
 	Escribir "ingrese el valor del cateto A"
 	Leer A
