@@ -33,9 +33,9 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 Sen x = x - x^3/3! + x^5/5! - x^7/7! + ...
 
 SOLUCION
-
-pseurocodigo
 ¬¬
+pseurocodigo
+
 1. Algoritmo Distancia_de_dos_puntos
 	escribir "ingresa las coordenadas de los puntos"
 	Escribir "ingresa coordenada X1"
